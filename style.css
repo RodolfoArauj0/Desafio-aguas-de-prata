@@ -240,7 +240,7 @@ aside img {
     width: 30rem;
 }
 
-.btn-comer{
+.btn-comer {
     position: absolute;
     border-radius: 2.1rem;
     top: 185rem;
@@ -255,11 +255,11 @@ aside img {
     font-weight: bold;
 }
 
-.btn-comer:hover{
+.btn-comer:hover {
     background-color: #975806;
 }
 
-.btn-hospedar{
+.btn-hospedar {
     position: absolute;
     border-radius: 2.1rem;
     top: 185rem;
@@ -274,11 +274,11 @@ aside img {
     font-weight: bold;
 }
 
-.btn-hospedar:hover{
+.btn-hospedar:hover {
     background-color: #06552b;
 }
 
-.btn-pontos{
+.btn-pontos {
     position: absolute;
     border-radius: 2.1rem;
     top: 185rem;
@@ -293,6 +293,42 @@ aside img {
     font-weight: bold;
 }
 
-.btn-pontos:hover{
+.btn-pontos:hover {
     background-color: #041349;
+}
+
+.galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(61, 60, 60);
+    margin: 6rem 0rem 3rem 0rem;
+}
+
+.galeria-de-fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria-de-fotos img {
+    margin: 1rem 0rem 0rem 2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos img {
+    margin: 0rem 0rem 6rem 2rem;
+    box-shadow: 10px 5px 5px rgb(202, 202, 202);
+    cursor: pointer;
 }
