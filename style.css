@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color: #f8f8f8;
     min-height: 100%;
 }
 
@@ -117,7 +116,15 @@ nav input {
 }
 
 .banner img {
-    object-fit: cover;
+    width: 112.6rem;
+}
+
+.curva {
+    z-index: -1;
+    position: absolute;
+    right: 0.05rem;
+    top: 15.8rem;
+    width: 115rem;
 }
 
 .ul-banner {
@@ -243,7 +250,7 @@ aside img {
 .btn-comer {
     position: absolute;
     border-radius: 2.1rem;
-    top: 185rem;
+    top: 189rem;
     left: 9.8rem;
     height: 6rem;
     width: 25rem;
@@ -262,7 +269,7 @@ aside img {
 .btn-hospedar {
     position: absolute;
     border-radius: 2.1rem;
-    top: 185rem;
+    top: 189rem;
     left: 44rem;
     height: 6rem;
     width: 25rem;
@@ -281,7 +288,7 @@ aside img {
 .btn-pontos {
     position: absolute;
     border-radius: 2.1rem;
-    top: 185rem;
+    top: 189rem;
     right: 9.2rem;
     height: 6rem;
     width: 25rem;
@@ -325,10 +332,112 @@ aside img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0rem 0rem 6rem 0rem;
+
+}
+
+.videos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.videos strong {
+    font-size: 1.4rem;
+    color: #575656;
+    text-align: center;
+    width: 24rem;
 }
 
 .videos img {
-    margin: 0rem 0rem 6rem 2rem;
     box-shadow: 10px 5px 5px rgb(202, 202, 202);
     cursor: pointer;
+    margin: 0rem 0rem 1rem 2rem;
+}
+
+.informes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informes img {
+    cursor: pointer;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+.fundo-azul img {
+    z-index: -1;
+    position: relative;
+    width: 112.6rem;
+    height: 8rem;
+    top: 1rem;
+}
+
+.sessao-docs h1 {
+    text-align: left;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+.sessao-docs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c3082;
+    color: #fff;
+}
+
+.docs {
+    display: flex;
+    margin: 2rem;
+    font-size: 1.2rem;
+    width: 25rem;
+    border-bottom: 0.1rem solid #fff;
+    cursor: pointer;
+}
+
+.sessao-docs img {
+    margin: 0rem 0.5rem 0rem 0rem;
+}
+
+.btn-edital {
+    background-color: #cda50a;
+    height: 2.5rem;
+    width: 10rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    left: 17rem;
+    margin-top: 2rem;
+
+}
+
+.btn-edital:hover {
+    background-color: #af8e07;
+}
+
+.btn-licitacoes {
+    background-color: #cda50a;
+    height: 2.5rem;
+    width: 10rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    left: 17rem;
+    margin-top: 2rem;
+
+}
+
+.btn-licitacoes:hover {
+    background-color: #af8e07;
 }
