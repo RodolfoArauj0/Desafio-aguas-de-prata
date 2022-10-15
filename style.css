@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #f8f8f8;
+    width: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #345ab0;
+    color: #fff;
+
+}
+
+.acessibilidade {
+    margin-left: 4rem;
+}
+
+.img-acess {
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 4rem;
+}
+
+li {
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 2rem;
+    cursor: pointer;
+}
+
+nav input {
+    height: 2rem;
+    border-radius: 0.5rem;
+    width: 15rem;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    position: relative;
+    bottom: 1.1rem;
+}
+
+.lupa {
+    height: 3.22rem;
+    position: relative;
+    right: 3rem;
+    top: 0.35rem;
+    cursor: pointer;
+
+}
+
+.rede-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4rem;
+}
+
+.rede-sociais span {
+    margin-right: 6rem;
+    font-size: 1.1rem;
+}
+
+.brasao {
+    height: 7rem;
+    margin: 1rem 2rem 1rem 9rem;
+}
+
+.div-brasao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prefeitura {
+    color: #0c3082;
+    font-size: 2rem;
+}
+
+.prata {
+    color: #0c3082;
+    font-size: 3rem;
+}
+
+.banner {
+    background-color: #0c3082;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    object-fit: cover;
+}
+
+.ul-banner {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.info-banner {
+    margin: 1.5rem;
+}
+
+.noticia{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(61, 60, 60);
+    margin: 6rem 0 0 0;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+article div:hover{
+    opacity: 85%;
+}
+
+article img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 2rem;
+}
