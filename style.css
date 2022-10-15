@@ -7,7 +7,6 @@
 
 body {
     background-color: #f8f8f8;
-    width: 100%;
     min-height: 100%;
 }
 
@@ -130,34 +129,132 @@ nav input {
     margin: 1.5rem;
 }
 
-.noticia{
+.noticia {
     font-size: 2.5rem;
     text-align: center;
     color: rgb(61, 60, 60);
     margin: 6rem 0 0 0;
 }
 
-article{
+article {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2rem;
+    margin: 2rem 0 0 10rem;
+    width: 90rem;
 }
 
-article div{
+article div {
     display: flex;
     flex-direction: column;
     margin: 1rem;
     cursor: pointer;
 }
 
-article div:hover{
-    opacity: 85%;
+article div:hover {
+    opacity: 89%;
 }
 
-article img{
+article img {
     height: 25rem;
     width: 25rem;
     border-radius: 2rem;
+}
+
+article strong {
+    margin: 1rem 0.1rem 0.5rem 0.2rem;
+    color: rgb(104, 102, 102);
+    font-size: 1.2rem;
+}
+
+article span {
+    color: grey;
+    margin: 0 0 0 0.2rem;
+}
+
+.btn-blue {
+    cursor: pointer;
+    background-color: #1253a0;
+    color: #fff;
+    font-weight: 12rem;
+    height: 3rem;
+    width: 35rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn-blue:hover {
+    background-color: #104688;
+}
+
+.principais-servicos {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(61, 60, 60);
+    margin: 7rem 0 0 0;
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem 0 0 0;
+    width: 110rem;
+}
+
+.servicos div {
+    margin: 0.5rem;
+}
+
+.servicos img {
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 22rem;
+}
+
+.turismo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(61, 60, 60);
+    margin: 7rem 0rem 3rem 0rem;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside img {
+    border-radius: 3.5rem;
+    margin: 2rem;
+    height: 20rem;
+    width: 30rem;
+}
+
+.btn-comer{
+    position: absolute;
+    border-radius: 2.1rem;
+    top: 185rem;
+    left: 10rem;
+    height: 6rem;
+    width: 25rem;
+    background-color: #b1680a;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.btn-comer:hover{
+    background-color: #975806;
 }
