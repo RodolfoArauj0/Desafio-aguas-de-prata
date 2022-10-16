@@ -2,7 +2,7 @@
 
 link deploy: https://desafio-aguas-de-prata.netlify.app
 
-Algumas fotos do layout
+Algumas fotos do layout de como ficou
 
 ![Captura de tela de 2022-10-16 10-32-59](https://user-images.githubusercontent.com/94018223/196038319-5e3157b5-419a-4772-b45e-db696cdee6e6.png)
 ![Captura de tela de 2022-10-16 10-33-10](https://user-images.githubusercontent.com/94018223/196038322-b23f0d65-c403-4bbd-9bf3-b61581c0871d.png)
