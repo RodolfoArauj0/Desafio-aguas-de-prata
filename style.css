@@ -22,7 +22,6 @@ a {
     align-items: center;
     background-color: #345ab0;
     color: #fff;
-
 }
 
 .acessibilidade {
@@ -33,14 +32,14 @@ a {
     cursor: pointer;
 }
 
-ul {
+header ul {
     display: flex;
     align-items: center;
     flex-direction: row;
     margin-right: 4rem;
 }
 
-li {
+header li {
     cursor: pointer;
     margin-left: 1rem;
 }
@@ -51,7 +50,7 @@ nav {
     align-items: center;
 }
 
-nav img {
+.insta-face {
     height: 2rem;
     cursor: pointer;
 }
@@ -126,6 +125,13 @@ nav input {
 .ul-banner {
     color: #fff;
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-banner li {
+    cursor: pointer;
 }
 
 .curva {
@@ -479,6 +485,6 @@ footer img {
 }
 
 footer strong,
-span {
+footer span {
     cursor: pointer;
 }
